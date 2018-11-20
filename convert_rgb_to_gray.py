@@ -4,7 +4,7 @@ def convert_RGB_to_gray_level(im_1):
 	im_bw_np.zeros((m,n))
 	for i in range(m):
 		for j in range(n):
-			if image_gray_level>120
+			if image_gray_level>120 # threshold = 120
 				im_bw[i,j]=1
 			else:
 				im_bw[i,j]=0
